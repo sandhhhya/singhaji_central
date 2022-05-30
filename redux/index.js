@@ -1,0 +1,13 @@
+//export all the dispatcher at one place so whenever the function are not exported error generate so reimport it once more
+export * from './actionDispatcher/auth/authDispatcher'
+export * from './actionDispatcher/auth/newPassDispatcher.js'
+export * from './actionDispatcher/auth/forgotpassDispatcher'
+export * from './actionDispatcher/superAdmin/createNewAdminDispatcher.js'
+export * from './actionDispatcher/superAdmin/showSideBarDispather.js'
+export * from './actionDispatcher/superAdmin/createFeesStrucDispather.js'
+export * from './actionDispatcher/superAdmin/studentTableDatadispatcher'
+export * from './actionDispatcher/superAdmin/adminTableDatadispatcher.js'
+export * from './actionDispatcher/superAdmin/feesStructureTableDataDispatcher.js'
+export * from './actionDispatcher/superAdmin/studentAccountTableDataDispatcher.js'
+export * from './actionDispatcher/account/pendingScholarshipTableDispatcher.js'
+export * from './actionDispatcher/account/feesReceiptTableDispather.js'

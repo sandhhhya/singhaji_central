@@ -1,0 +1,202 @@
+#customers table {
+    font-family: 'Poppins', sans-serif;
+    border-collapse: collapse;
+    width: 100%;
+}
+
+#customers {
+    width: 100% !important;
+}
+
+.Stu-Acc-info {
+    width: 98%;
+   
+    display: flex;
+    justify-content: space-between;
+  
+    align-content: center;
+    flex-wrap: nowrap;
+    text-align: center;
+}
+
+.info-col p {
+    font-weight: bold;
+    font-size: 17px;
+}
+
+.select-acc-student {
+    border: none !important;
+    outline: none;
+    height: 41px;
+    width: 144px !important;
+    background-color: #fff;
+    text-align: center;
+    -webkit-appearance: none;
+  
+}
+
+.select-acc-student:focus {
+    outline: none;
+    outline: 0;
+    box-shadow: none !important;
+    border: none !important;
+}
+
+
+
+
+.dropdown-arrow {
+    background: url("../../../assests/image/AccountIcons/dropdownarrow.svg") no-repeat right;
+
+}
+
+.info-div {
+    width: 100px;
+    height: 50px;
+}
+
+
+.info-col {
+
+    box-shadow: 2px 7px 10px 0px rgba(0, 0, 0, 0.082);
+    height: 76px;
+    text-align: center;
+    justify-items: center;
+    align-content: center;
+    border-radius: 4px;
+    width: 198px !important;
+    background-color: #ffffff;
+}
+
+#customers table td,
+#customers th {
+    /* border: 1px solid #ddd; */
+    padding: 8px;
+}
+
+#customers table tr:nth-child(even) {
+    background-color: #f2f2f2;
+}
+
+#customers table tr:hover {
+    background-color: #ddd;
+}
+
+/* ----------------------- date picker -------------------- */
+
+.rs-picker-default .rs-picker-toggle.rs-btn {
+    border: 1px solid #f99300 !important;
+    border-top-right-radius: 0;
+    border-right: none !important;
+    margin-bottom: 3px;
+    height: 41px;
+    border-bottom-right-radius: 0;
+}
+
+
+
+.rs-picker-has-value .rs-btn .rs-picker-toggle-value,
+.rs-picker-has-value .rs-picker-toggle .rs-picker-toggle-value {
+    /* color: #1675e0; */
+    color: #00000086 !important;
+    /* font-weight: bold; */
+}
+
+.rs-picker-toggle {
+    border-radius: 2px !important;
+}
+.rs-picker-toggle-wrapper {
+    display: inline-block;
+    vertical-align: middle;
+    margin-left: 12px !important;
+    max-width: 100%;
+}
+
+
+.date-range-button {
+    height: 41px;
+    width: 116px;
+    margin-top: 1px;
+    border: 1px solid #f99300;
+    border-left: none !important;
+    border-top-right-radius: 2px;
+    border-bottom-right-radius: 2px;
+    padding-bottom: 3px;
+    color: #5a607f;
+    font-weight: bold;
+    background-color: #ffdba7;
+}
+
+.rs-picker-toggle .rs-picker-toggle-placeholder {
+ 
+    margin-left: 50%;
+    color: #5a607f !important;
+    font-weight: bold !important;
+}
+
+.rs-picker-has-value .rs-btn .rs-picker-toggle-value,
+.rs-picker-has-value .rs-picker-toggle .rs-picker-toggle-value {
+    color: #5a607f !important;
+    /* font-weight: bold; */
+}
+
+.date-range-button:hover {
+    background-color: #ffd394;
+}
+
+/* ---------------- green and yellow circles ---------------------- */
+.recieved-fee-circle {
+   
+    height: 16px;
+    width: 16px;
+    /* background-color: rgb(255, 214, 78); */
+    border-radius: 50%;
+    display: inline-block;
+    /* margin-right: -10px; */
+}
+
+
+
+
+
+.pagination-div {
+    width: 98% !important;
+    margin-bottom: 16px !important;
+    height: 20px;
+    justify-content: center;
+}
+
+.download-btn {
+    background-color: #4f83df !important;
+    color: white !important;
+    height: 41px !important;
+}
+
+[type="submit"]:not(:disabled),
+button:not(:disabled) {
+    cursor: pointer;
+    margin-top: 0px;
+}
+
+.table_btn_size {
+    width: 86px !important;
+    height: 30px !important;
+    padding: 0 !important;
+    padding-bottom: 3px !important;
+    margin: 0 !important;
+}
+
+
+
+
+
+/* for student frofile page ---------------- */
+
+.addStdLable {
+    margin: 1px !important;
+    font-weight: 500 !important;
+    color: #5a607f !important;
+}
+
+
+/* for student frofile page -------------------- */
